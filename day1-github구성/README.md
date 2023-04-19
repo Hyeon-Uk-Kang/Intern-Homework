@@ -1,4 +1,6 @@
 # 보고서-WSL을 이용한 리눅스 환경 구성 방법
+
+
 ## WSL이란? 
 
 'Widows Subsystem for Linux'의 앞글자만 딴 것으로, 윈도우 시스템에서 곧바로 리눅스를 실행할 수 있도록 하는 매우 편리한 시스템이다. 장점은 다음과 같다.
@@ -22,4 +24,11 @@
    <img width="310" alt="1" src="https://user-images.githubusercontent.com/55052142/233046982-41fa8a2a-5286-4a88-950a-0511e3e577a5.png">
    
 2. 컴퓨터를 재부팅한다.
-3. 우분투 환경준비가 시작되면 리눅스에서 사용할 사용자 이름과 아이디를 입력하면 끝이다.
+3. 우분투 환경준비가 시작되면 리눅스에서 사용할 사용자 아이디와 비밀번호를 입력한다. 
+   
+   <img width="600" alt="2" src="https://user-images.githubusercontent.com/55052142/233083241-524d16a3-f8ac-4922-a97e-4fa0600e84e2.png">
+   
+ 4. 다시 관리자 권한으로 cmd 창을 열고 wsl -l -v 을 입력하여 잘 설치되었는지 확인한다.
+ 
+      <img width="303" alt="3" src="https://user-images.githubusercontent.com/55052142/233085006-966282c5-44e3-4901-9438-a0060195f682.png">
+
