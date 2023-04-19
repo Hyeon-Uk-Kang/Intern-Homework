@@ -14,7 +14,10 @@
 ## 다음은 WSL을 사용하기 위한 요구설정이다.
 
 * window 10 2004 이상
-* BIOS 설정에서 가상화 활성화
+* BIOS 설정에서 Linux용 Windows 하위 시스템 가상화 활성화
+
+  <img width="280" alt="4" src="https://user-images.githubusercontent.com/55052142/233086951-69ca18ff-cd17-4dc9-aad1-e289e4bc55c0.png">
+
 
 
 ## WSL 설치
