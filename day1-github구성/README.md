@@ -19,7 +19,7 @@
 
 ## WSL 설치
 
-1. 관리자 권한으로 cmd 창을 열고 wsl --install 을 입력한다.
+1. 관리자 권한으로 cmd 창을 열고 wsl --install 을 입력하여 설치한다.
 
    <img width="310" alt="1" src="https://user-images.githubusercontent.com/55052142/233046982-41fa8a2a-5286-4a88-950a-0511e3e577a5.png">
    
