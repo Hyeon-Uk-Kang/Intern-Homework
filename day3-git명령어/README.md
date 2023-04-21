@@ -104,6 +104,38 @@ git의 기본 기능은 이력 관리이다. git은 전체 소스파일을 대�
   1. 특정 커밋을 취소하는 새로운 커밋 
   2. 원상태로 복원한다.
 
+
+## git switch -c - 브랜치 생성
+
+  
+  git switch -c add-color
+  
+  * 기존 main 브랜치의 작업 공간과 동일한 add-color 브랜치를 생성하면서 이동
+  * 쉘 프롬프트가 ➜ sample git:(main)에서 ➜ sample git:(add-color)로 변경
+  
+  1. green, blue 파일 추가
+  2. 전체 변경사항을 인덱스에 추가
+  3. 커밋 작성
+  
+     <img width="442" alt="7" src="https://user-images.githubusercontent.com/55052142/233629247-059c40e2-687c-439b-9c57-aa62b855bfc9.png">
+     
+ 
+ ## update-red 브랜치 추가
+ 
+  1. update-red 브랜치 생성 후 이동
+  2. red 파일 내용 변경
+  3. 전체 변경사항을 인덱스에 추가
+  4. 커밋 작성 
+  
+  
+     <img width="443" alt="7" src="https://user-images.githubusercontent.com/55052142/233630580-650c10b2-092d-4aad-aeef-650e02c8ae6b.png">
+     
+
+  
+  
+
+
+
   
 
    
