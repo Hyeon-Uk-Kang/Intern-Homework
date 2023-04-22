@@ -63,6 +63,51 @@
    예외(Exception)은 프로그래머가 직접 예측 가능하여 막을 수 있는 오류이다. 
    
    try, catch, finally를 사용해 예외를 처리하거나 메소드를 호출한 곳으로 던질 수 있다.
+   
+   
+   ### try, catch
+   
+   try 문안의 수행할 문장들에서 예외가 발생하지 않는다면 catch문에 속한 문장들은 수행되지 않는다. 하지만 try 문안의 문장을 수행하는 도중에 예외가 발생하면 예외에 해당되는 catch문이    수행된다.
+   
+   <img width="334" alt="1" src="https://user-images.githubusercontent.com/55052142/233773016-f52c1f36-04f1-484a-9414-e5b71afe2335.png">
+   
+   ### finally
+   
+   finally 구문은 try 문장 수행 중 예외발생 여부에 상관없이 무조건 실행시켜야 할 때 사용한다. 
+   
+   <img width="373" alt="2" src="https://user-images.githubusercontent.com/55052142/233773528-3d015746-c5bd-4101-8d2b-5c39881e2167.png">
+   
+   ➜결과
+   
+   <img width="335" alt="2" src="https://user-images.githubusercontent.com/55052142/233773606-ec0c8619-4b95-445b-aedf-e210033c68ad.png">
+
+   
+   ### RuntimeException 과 Exception
+   
+   RuntimeException은 실행시 발생하는 예외이고 Exception은 컴파일시 발생하는 예외이다. 즉, Exception은 프로그램 작성시 이미 예측가능한 예외를 작성할 때 사용하고 
+   RuntimeException은 발생 할수도 발생 안 할수도 있는 경우에 작성한다.
+   
+   <img width="393" alt="1" src="https://user-images.githubusercontent.com/55052142/233774999-673a4bae-42ea-4005-975c-00ebbc8de8d2.png">
+
+   ➜결과
+   
+   <img width="347" alt="2" src="https://user-images.githubusercontent.com/55052142/233775019-549e6ace-9a35-4aa1-aa22-6fed88c52b7d.png">
+   
+   런타임오류가 발생했다. Exception으로 변경하면 컴파일 오류가 발생할 것이고, try-catch문으로 처리할 수 있다.
+   
+   ➜수정 결과
+   
+   <img width="422" alt="1" src="https://user-images.githubusercontent.com/55052142/233775581-daea51e3-0293-4b75-b9ee-0c905f5156de.png">
+   
+   
+   <img width="271" alt="2" src="https://user-images.githubusercontent.com/55052142/233775644-d819556b-91e5-4883-b55c-090dae1b0107.png">
+
+
+
+
+
+   
+   
 
 
    
